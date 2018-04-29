@@ -1,0 +1,57 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'chriskempson/base16-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+filetype plugin on
+
+syntax on
+
+" make vims look awesome 
+colorscheme base16-dracula
+set guifont=RobotoMono\ Nerd\ Font:h14
+set guioptions=
+set lines=40 columns=130
+set number
+set numberwidth=2
+set ruler
+set cc=100
+set tw=99
+set cursorline
+"set lbr 	"linebreak
+
+
+" File encodings
+set encoding=utf-8
+set ffs=unix,dos,mac
+
+" Tabbing
+set shiftwidth=4
+set tabstop=4
+set softtabstop=0
+set noexpandtab
+
+"------------------------------------------------------------------------------ 
+" Plugin customisation and there keybindings
+
+" Nerdtree
+map <c-x><c-f> :NERDTree <return>
+map <c-x><c-c> :NERDTreeClose <return>
+
+" Airline
+let g:AirlineTheme='base16'
+
