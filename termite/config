@@ -5,45 +5,42 @@ bold_is_bright = true
 clickable_url = true
 cursor_shape = ibeam
 
-
 [colors]
-
-# special
-foreground      = #f8f8f2
-foreground_bold = #f8f8f2
-cursor          = #f8f8f2
-background      = rgba(40, 42, 54, 0.92)
+foreground=#B4B7B9
+background=#2d2d2d
+cursor=#45D9D9
 
 # black
-color0  = #000000
-color8  = #4d4d4d
+color0  = #2d2d2d
+color8  = #747369
 
 # red
-color1  = #ff5555
-color9  = #ff6e67
+color1  = #f2777a
+color9  = #f2777a
 
 # green
-color2  = #50fa7b
-color10 = #5af78e
+color2  = #a1f287
+color10 = #76bd56
 
 # yellow
-color3  = #f1fa8c
-color11 = #f4f99d
+color3  = #f99e19
+color11 = #f99e19
 
 # blue
-color4  = #bd93f9
-color12 = #caa9fa
+color4  = #E7E8E8
+#color4 = #E9EAEA
+color12 = #E9EAEA
+#color12 = #E7E8E8
 
 # magenta
-color5  = #ff79c6
-color13 = #ff92d0
+color5  = #cc99cc
+color13 = #cc99cc
 
 # cyan
-color6  = #8be9fd
-color14 = #9aedfe
+color6  = #45D9D9
+color14 = #45D9D9
 
 # white
-color7  = #bfbfbf
-color15 = #e6e6e6
-
+color7  = #d3d0c8
+color15 = #f2f0ec
 
